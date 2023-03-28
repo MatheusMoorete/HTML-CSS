@@ -1,0 +1,29 @@
+.processos {
+    margin-left: 1rem;
+    flex-basis: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.processos__img1 {
+    height:50px;
+    margin-right:10px;
+    margin-bottom: 15px;
+    }
+
+.processos__img2 {
+    height:50px;
+    margin-left: 28px;
+    margin-bottom: 15px;
+    }
+
+.processos__img3 {
+    height:50px;
+    margin-right:5px;
+    margin-bottom: 15px;
+    }
+
+

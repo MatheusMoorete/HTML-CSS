@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Serita Pães Congelados</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/style.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/cabeçalho.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre__descricao.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre__titulo.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-tilulo.css" rel="stylesheet" />
+        <link href="./assets/css/pessoas.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/processos.css">
+        <link rel="stylesheet" href="assets/css/logo.css">
+        
+        
+    </head>
+    <body>
+    <header class="cabecalho">
+            <img class="logo" alt="Serita" src="assets/img/logo_transparent.png" width="150px" height="120px">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="#">Processos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
+                    <li class="menu__item"><a class="menu__link ativo" href="contato_zap">Contato</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="banner">
+            <img class="banner__imagem" src="assets/img/arranjo-de-bolos-saudaveis-sobre-tela.jpg">
+            <button><h2 class="banner__titulo"> Aproveite toda a praticidade dos <br> pães congelados Serita!</h2></button>
+        </section>
+        <section id="processos" class="sobre">
+            <h2 class="sobre__titulo">Conheça nossos processos:</h2>
+            <div class="processos">
+                <img  class="processos__img1" src="assets/img/fire.svg" alt="Fogo">
+                <span class="sobre__descricao">O pão Serita é fabricado por meio do processo tradicional com matéria prima de alta qualidade.</span> 
+            </div>
+            <div class="processos">
+                <img class="processos__img2" src="assets/img/thermometer-snow.svg" alt="Termometro">
+                <span class="sobre__descricao"> Após a modelagem, os pães são levados a uma câmara fria que ira submete-los a um processo de ultracongelamento, preservando assim suas caracteriscas.</span> 
+            </div>
+            <div class="processos">
+                <img class="processos__img3" src="assets/img/truck.svg" alt="Caminhão">
+                <span class="sobre__descricao"> Dessa forma, o pão Serita chega ao seu estabelecimento pronto para o manuseio de forma prática e rapida</span> 
+            </div>
+        </section>
+        
+        <section class="quem-somos">
+            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                    <span class="pessoa__nome">Sergio</span>
+                    <span class="pessoa__funcao"> <br> Receitas e Entregas</span>
+                </div>  
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                    <span class="pessoa__nome">Rita</span>
+                    <span class="pessoa__funcao"> <br> Auxilio</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+                    <span class="pessoa__nome">Andreia</span>
+                    <span class="pessoa__funcao"> <br> Pedeiro</span>
+                </div>
+</section>
+            
+        <footer>
+            </div>
+                <div class="whatsapp">
+                    <a class="contato_zap" href="https://wa.me/28999212172" target="_blank">
+                    <img src="assets/img/whatsapp.svg" alt="Ícone do WhatsApp">
+                    </a>
+                </div>
+        </footer>
+        
+        
+        <script>
+            const linkContato = document.querySelector('.menu__link[href="contato_zap"]');
+            linkContato.addEventListener('click', (event) => {
+            event.preventDefault();
+            const secaoContatos = document.querySelector('.whatsapp');
+            secaoContatos.scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+ 
 
+    </body>
+
+</html>
