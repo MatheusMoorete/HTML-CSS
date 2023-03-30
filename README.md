@@ -9,3 +9,9 @@
 * CSS
 
 * Flex-box
+
+## Feito por:
+
+#### Matheus Morete Espinoso
+
+#### Linkedin: https://www.linkedin.com/in/matheus-moorete/
